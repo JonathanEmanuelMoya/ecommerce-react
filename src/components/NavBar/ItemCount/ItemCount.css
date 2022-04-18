@@ -1,0 +1,19 @@
+.ItemCount{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    display: flex;
+    font-size: 30px;
+}
+
+button{
+    font-size: 30px;
+    background-color: lightblue;
+}
+
+span{
+    font-size: 30px;
+}
