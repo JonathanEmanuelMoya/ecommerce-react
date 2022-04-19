@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/NavBar'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Form from './components/Form/Form'
 import { CartContextProvider } from './context/CartContext';
+import { NotificationProvider } from './components/Notification/Notification';
 
 
 
@@ -17,8 +18,10 @@ const App = () => {
   
   return (
       <div className="App">
+        <NotificationProvider>
         <CartContextProvider>
           <BrowserRouter>
+          <Notification />
             <NavBar />
             {/* <Link to='/form' className='Option' > Form </Link> */}
             <Routes>
@@ -30,6 +33,7 @@ const App = () => {
             </Routes>
           </BrowserRouter> 
         </CartContextProvider>
+        </NotificationProvider>
       </div>
   );
 }

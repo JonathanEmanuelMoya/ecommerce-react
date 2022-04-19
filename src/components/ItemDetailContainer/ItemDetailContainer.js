@@ -14,8 +14,8 @@ const ItemDetailContainer = ({ setCart, cart }) => {
     useEffect(() => {
         getProductsById(productId).then(item => {
             setProduct(item)          
-        }).catch(err  => {
-            console.log(err)
+        }).catch(error  => {
+            console.log(error)
         }).finally(() => {
             setLoading(false)
         })
