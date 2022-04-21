@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom"
 
 
 const ItemDetailContainer = ({ setCart, cart }) => {
-    const [product, setProduct] = useState()
+    const [product, setProduct] = useState({}) //se le pasa de valor un objeto vacio ya que es el tipo de dato que va a recibir
     const [loading, setLoading] = useState(true)
     
     const { productId } = useParams()

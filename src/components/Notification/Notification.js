@@ -1,5 +1,6 @@
-import './notificationStyles.css'
+import './Notification.css'
 import { useState,createContext } from 'react'
+
 
 const Notification = ({ message, severity }) => {
 

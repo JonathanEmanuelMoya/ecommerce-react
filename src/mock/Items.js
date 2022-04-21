@@ -1,7 +1,7 @@
 
 const products = [
     {
-        id: 1,
+        id: "1",
         name: 'Notebook HP 348 G7',
         description : 'Descripcion HP',
         category: 'notebook',
@@ -11,7 +11,7 @@ const products = [
     },
 
     {
-        id: 2,
+        id: "2",
         name: 'Notebook Samsung Galaxy Book Pro 15.6',
         description : 'Descripcion Samsung',
         category: 'notebook',
@@ -21,7 +21,7 @@ const products = [
     },
 
     {
-        id: 3,
+        id: "3",
         name: 'Notebook Lenovo Cloudbook',
         description : 'Descripcion Lenovo',
         category: 'notebook',
@@ -31,7 +31,7 @@ const products = [
     },
 
     {
-        id: 4,
+        id: "4",
         name: 'Apple Macbook Air 13 M1',
         description : 'Descripcion Apple',
         category: 'notebook',
@@ -41,7 +41,7 @@ const products = [
     },
 
     {
-        id: 5,
+        id: "5",
         name: 'ASUS F515 (11th Gen Intel)',
         description : 'Descripcion Asus',
         category: 'notebook',

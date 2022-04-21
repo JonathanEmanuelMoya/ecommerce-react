@@ -21,7 +21,7 @@ const App = () => {
         <NotificationProvider>
         <CartContextProvider>
           <BrowserRouter>
-          <Notification />
+          
             <NavBar />
             {/* <Link to='/form' className='Option' > Form </Link> */}
             <Routes>
