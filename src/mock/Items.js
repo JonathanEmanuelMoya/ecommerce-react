@@ -12,7 +12,7 @@ const products = [
 
     {
         id: "2",
-        name: 'Notebook Samsung Galaxy Book Pro 15.6',
+        name: 'Notebook Samsung ',
         description : 'Descripcion Samsung',
         category: 'notebook',
         price: 80000,
@@ -22,7 +22,7 @@ const products = [
 
     {
         id: "3",
-        name: 'Notebook Lenovo Cloudbook',
+        name: 'Notebook Lenovo ',
         description : 'Descripcion Lenovo',
         category: 'notebook',
         price: 70000,
@@ -32,7 +32,7 @@ const products = [
 
     {
         id: "4",
-        name: 'Apple Macbook Air 13 M1',
+        name: 'Apple Macbook Air ',
         description : 'Descripcion Apple',
         category: 'notebook',
         price: 150000,
@@ -42,7 +42,7 @@ const products = [
 
     {
         id: "5",
-        name: 'ASUS F515 (11th Gen Intel)',
+        name: 'Notebook Asus',
         description : 'Descripcion Asus',
         category: 'notebook',
         price: 90000,
