@@ -54,7 +54,7 @@ const products = [
 const categories = [
     {
         
-        id: 'notebooks', description: 'notebooks',
+        id: 'notebook', description: 'Notebook',
         
     }
 ]

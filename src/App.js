@@ -1,5 +1,5 @@
 import './App.css';
-import {useState, createContext} from 'react'
+import { useState, createContext } from 'react'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import ItemListContainer from './components/NavBar/ItemListContainer/ItemListContainer'
 import NavBar from './components/NavBar/NavBar'
@@ -16,25 +16,30 @@ export const Context = createContext()
 
 const App = () => {
   
+
   return (
-      <div className="App">
-        <NotificationProvider>
+    <div className="App">
+      
+      
+
+      <NotificationProvider>
         <CartContextProvider>
           <BrowserRouter>
-          
+            {/*<Notification />*/}
             <NavBar />
             {/* <Link to='/form' className='Option' > Form </Link> */}
             <Routes>
-              <Route path='*' element={<h1>NOT FOUND 404</h1>}/>
+              <Route path='/' element={<h1>HOME</h1>} />
+              <Route path='*' element={<h1>NOT FOUND 404</h1>} />
               <Route path='/' element={<ItemListContainer />} />
               <Route path='/category/:categoryId' element={<ItemListContainer />} />
               <Route path='/detail/:productId' element={<ItemDetailContainer />} />
               <Route path='/form' element={<Form />} />
             </Routes>
-          </BrowserRouter> 
+          </BrowserRouter>
         </CartContextProvider>
-        </NotificationProvider>
-      </div>
+      </NotificationProvider>
+    </div>
   );
 }
 
